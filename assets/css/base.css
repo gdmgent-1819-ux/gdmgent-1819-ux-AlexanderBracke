@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'iowanoldst_btroman';
+  src: url('fonts/iowanoldstbtroman-webfont.woff2') format('woff2'),
+      url('fonts/iowanoldstbtroman-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
+
+*{
+  margin:0;
+  padding: 0;
+}
 html {
   height: 100%;
 }
@@ -6,4 +24,296 @@ body {
   font-family: var(--t-body);
   height: inherit;
   margin: 0;
+  font-family: 'iowanoldst_btroman';
 }
+
+
+.wideimage{
+width:100%;
+}
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  
+  top: 11%;
+  left:70px;
+}
+
+.huidigepagina{
+text-decoration: underline;
+}
+
+.menuitem {
+  padding-left: 13px;
+  list-style: none;
+  font-family: 'iowanoldst_btroman';
+  font-size: 12px;
+  color: #707070;
+}
+
+.headertext {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'iowanoldst_btroman';
+  color: #707070;
+}
+
+.headertitle{
+font-size: 40px;
+text-decoration: underline;
+
+}
+
+.headersubtitle{
+font-size: 15px;
+}
+
+.filosofiefoto{
+  display:none;
+}
+
+.red{
+  background-color: #DF796E;
+  color: white;
+}
+.darkred{
+  background-color: #b9635a;
+  color: white;
+}
+
+.filosofietitel{
+  text-align: center;
+  padding: 4px;
+  font-size: 25px;
+}
+
+.filosofietext{
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+padding: 5px;
+}
+
+
+.ctamenu{
+  padding: 10px;
+}
+
+.clicktext{
+  text-align: center;
+  padding: 14px;
+  font-size: 25px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.clickmenu{
+  font-family: 'iowanoldst_btroman';
+    font-size: 30px;
+    padding: 15px;
+    background-color: #B9635A;
+    margin:0 auto;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    width: 30%;
+
+}
+
+
+.contacttitle{
+  text-align: center;
+padding: 10px;
+}
+
+.contactinfo{
+text-align: center;
+padding: 10px;
+
+}
+
+.locatietitle{
+  text-align: center;
+  padding: 10px;
+}
+
+.mappicture{
+  padding-left: 90px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+.locatieinfo{
+  text-align: center;
+  padding: 10px;
+}
+
+.openingsurentitle{
+  text-align: center;
+  padding: 10px;
+}
+
+.openingsureninfo{
+  text-align: center;
+  padding: 10px;
+}
+
+.desktop{
+  display: none;
+}
+
+
+@media only screen and (min-width: 720px){
+
+  .desktop{
+    display: block;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+.menu {
+  display: flex;
+  position: absolute;
+  top: 20%;
+  left:450px;
+}
+
+.menuitem {
+
+  margin-right: 20px;
+  list-style: none;
+  font-family: 'iowanoldst_btroman';
+  font-size: 22px;
+  color: #707070;
+}
+
+.headertext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'iowanoldst_btroman';
+  color: #707070;
+}
+
+.headertitle{
+font-size: 100px;
+text-decoration: underline;
+
+}
+
+.headersubtitle{
+  text-align: center;
+font-size: 20px;
+}
+
+  .filosofie{
+   display: flex;
+   justify-content: center;
+   padding: 100px;
+  }
+
+  .filosofietitel{
+    padding-top: 80px;
+    text-align: justify;
+    padding-left: 10%;
+  }
+
+
+  .filosofietext{
+    margin: 0;
+    width: 45%;
+  padding: 5px;
+  font-size: 12px;
+  }
+
+  .filosofiefoto{
+    display: block;
+    width: 40%;
+    height: 40%;
+    padding-left: 20%;
+    padding-right: 30px;
+  }
+
+.flex{
+  display: flex;
+  justify-content: center;
+
+}
+
+.ctapizza{
+  padding: 40px;
+  
+}
+
+.ctamenu{
+  padding-top: 12%;
+  padding-right: 60px;
+}
+
+.clickmenu{
+  padding-right: 20px;
+}
+
+.pizzaimage{
+  width: 40%;
+  height:40%;
+}
+
+footer{
+  display:flex;
+}
+
+.contacttitle{
+  text-align: center;
+padding: 10px;
+}
+
+.contactinfo{
+text-align: center;
+padding: 10px;
+
+}
+
+
+.locatietitle{
+  text-align: center;
+  padding: 10px;
+}
+
+.mappicture{
+  padding-left: 240px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+.locatieinfo{
+  text-align: center;
+  padding: 10px;
+}
+
+.openingsurentitle{
+  text-align: center;
+  padding: 10px;
+}
+
+.openingsureninfo{
+  text-align: center;
+  padding: 10px;
+  width: 120px;
+}
+
+}
+
